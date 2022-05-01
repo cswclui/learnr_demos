@@ -3,4 +3,6 @@ services:
   shiny:
     build: .
     ports:
-      - "80:3838"
+      - "10080:3838"
+    #volumes:
+    #  - ./shiny:/srv/shiny-server/demos2
